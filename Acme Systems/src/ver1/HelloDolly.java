@@ -7,5 +7,9 @@ public class HelloDolly {
 		System.out.println("Hello Dolly!");
 		System.out.println("Hello Dolly from Eclipse again!");
 	}
-
+	
+	public static String whatFor(String s) {
+		s = s + ", what for?";
+		return s;
+	}
 }
